@@ -1,0 +1,142 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    color: #222;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Header */
+  header {
+    background: linear-gradient(to right, #000, #007a3d, #ff0000);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  header h1 i {
+    margin-right: 10px;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #fffacd;
+  }
+  
+  /* Main content */
+  main {
+    flex: 1;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  /* Hero section */
+  .hero img.main-img {
+    max-width: 300px;
+    border-radius: 15px;
+    border: 4px solid #000;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+  }
+  
+  .hero h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #007a3d;
+  }
+  
+  /* Card Styles */
+  .card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card h3 {
+    margin: 10px 0;
+    color: #ff0000;
+  }
+  
+  /* Login Form */
+  .login-form {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    text-align: left;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007a3d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-form button:hover {
+    background-color: #005a2c;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    color: #333;
+  }
